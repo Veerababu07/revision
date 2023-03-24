@@ -1,0 +1,38 @@
+Kubernetes 
+----------
+* kubernetes is a container orchestrartion software
+* k8s is a disturbuted application software whis is called cluster
+* This orchestration is done in the concept od master(minions) and nodes
+* master node they do the orchestrartion and nodes(slaves) they perform/does the work assigned by the master
+* It can do self healing and manage the application  and it maintains actualstate=desired state
+* k8s is developed by the google by the experience of running the containers and it has the in house product called omega and borg
+* K8s has its  DNA from google. it was donated as a opensource project to CNCF(Cloud Native Computing Foundation)
+* K8s is designed to work with any container technology Ex docker is mostly used in the industry
+
+* master node: we intrect with the master nodes, to interect with the master node we have (API) calling/understanding
+ There are 2 ways 
+ 1. JSON
+ 2. Code/restapi
+ another one is through the (CMD) kind of application 
+  this is through:   Kubectl: commands(imperative approch)
+                               Yaml(decelerative approch
+cluster: 
+    master: assignes the work
+    node: does the work
+ above are the 2 ways to interect with the k8s to expose API   
+
+ actualstate=desiredstate
+ ------------------------
+* k8s always works on what is desired state (changed state)
+Manifests: Yaml files are the way of expressing our desired state and those are called as manifests
+* We create the Yaml manefiest to express the  desired state and k8s master ensures that the desired state to be running
+
+K8s is the software that is installed on the server that software runs/creates the orchestration platform
+
+K8s Archicture:
+
+Master Components:
+
+image.png
+
+
